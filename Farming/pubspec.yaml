@@ -1,0 +1,194 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-2/images/vector.png
+    - assets/page-2/images/vector-tpp.png
+    - assets/page-2/images/vector-xRN.png
+    - assets/page-2/images/vector-2sA.png
+    - assets/page-2/images/vector-ba8.png
+    - assets/page-2/images/vector-sXe.png
+    - assets/page-2/images/vector-Uic.png
+    - assets/page-2/images/vector-Woa.png
+    - assets/page-2/images/line-2.png
+    - assets/page-2/images/vector-FGU.png
+    - assets/page-2/images/vector-C7S.png
+    - assets/page-2/images/vector-3nG.png
+    - assets/page-2/images/group-2.png
+    - assets/page-2/images/vector-o8t.png
+    - assets/page-2/images/rectangle-4.png
+    - assets/page-2/images/vector-q8k.png
+    - assets/page-2/images/vector-ESt.png
+    - assets/page-2/images/rectangle-1.png
+    - assets/page-2/images/vector-QZe.png
+    - assets/page-2/images/vector-UP2.png
+    - assets/page-2/images/vector-XHJ.png
+    - assets/page-2/images/vector-ZBN.png
+    - assets/page-2/images/vector-4CQ.png
+    - assets/page-2/images/vector-rZW.png
+    - assets/page-2/images/vector-Hgk.png
+    - assets/page-2/images/vector-FX6.png
+    - assets/page-2/images/vector-jF6.png
+    - assets/page-2/images/vector-ppp.png
+    - assets/page-2/images/vector-UH6.png
+    - assets/page-2/images/vector-TV2.png
+    - assets/page-2/images/vector-jmr.png
+    - assets/page-2/images/vector-N5N.png
+    - assets/page-2/images/vector-WWL.png
+    - assets/page-2/images/vector-FZS.png
+    - assets/page-2/images/vector-Wdn.png
+    - assets/page-2/images/vector-tWL.png
+    - assets/page-2/images/vector-ELQ.png
+    - assets/page-2/images/vector-W4p.png
+    - assets/page-2/images/vector-GPS.png
+    - assets/page-2/images/vector-EgG.png
+    - assets/page-2/images/group-1.png
+    - assets/page-2/images/vector-XZr.png
+    - assets/page-2/images/vector-yxk.png
+    - assets/page-2/images/vector-SBz.png
+    - assets/page-2/images/vector-VKn.png
+    - assets/page-2/images/vector-tfz.png
+    - assets/page-2/images/jagokisan-removebg-preview-2.png
+    - assets/page-2/images/jagokisan-removebg-preview-1.png
+    - assets/page-2/images/jagokisan-removebg-preview-2-9sn.png
+    - assets/page-2/images/vector-uc4.png
+    - assets/page-2/images/jagokisan-removebg-preview-1-37v.png
+    - assets/page-2/images/vector-Wp8.png
+    - assets/page-2/images/jagokisan-removebg-preview-1-qLc.png
+    - assets/page-2/images/jagokisan-removebg-preview-1-1Lt.png
+    - assets/page-2/images/vector-vdW.png
+    - assets/page-2/images/vector-7rx.png
+    - assets/page-2/images/vector-MLt.png
+    - assets/page-2/images/vector-b7v.png
+    - assets/page-2/images/vector-Lwz.png
+    - assets/page-2/images/vector-FLC.png
+    - assets/page-2/images/vector-CFS.png
+    - assets/page-2/images/vector-wQU.png
+    - assets/page-2/images/vector-5Fn.png
+    - assets/page-2/images/vector-Tgt.png
+    - assets/page-2/images/vector-XCC.png
+    - assets/page-2/images/vector-gat.png
+    - assets/page-2/images/vector-o5A.png
+    - assets/page-2/images/vector-kQ8.png
+    - assets/page-2/images/vector-Xix.png
+    - assets/page-2/images/vector-FZi.png
+    - assets/page-2/images/vector-uEp.png
+    - assets/page-2/images/ellipse-5.png
+    - assets/page-2/images/vector-TN8.png
+    - assets/page-2/images/bill-miller-1.png
+    - assets/page-2/images/vector-2at.png
+    - assets/page-2/images/jagokisan-removebg-preview-1-u6G.png
+    - assets/page-2/images/vector-dF6.png
+    - assets/page-2/images/vector-Bhr.png
+    - assets/page-2/images/vector-Tjn.png
+    - assets/page-2/images/vector-3FN.png
+    - assets/page-2/images/vector-1dJ.png
+    - assets/page-2/images/vector-Qq6.png
+    - assets/page-2/images/vector-JDe.png
+    - assets/page-2/images/vector-cuW.png
+    - assets/page-2/images/group-2-JZN.png
+    - assets/page-2/images/vector-V1a.png
+    - assets/page-2/images/vector-yKn.png
+    - assets/page-2/images/vector-kbr.png
+    - assets/page-2/images/vector-WWC.png
+    - assets/page-2/images/auto-group-icfs.png
+    - assets/page-2/images/auto-group-wgoj.png
+    - assets/page-2/images/man-in-paddy-field-green-farming-1.png
+    - assets/page-2/images/vector-5Rr.png
+    - assets/page-2/images/line-1.png
+    - assets/page-2/images/leonardodiffusiononepersondoingworkinagriculturefield1-1.png
+    - assets/page-2/images/ellipse-6.png
+    - assets/page-2/images/christine-smart-1.png
+    - assets/page-2/images/farmer-image-for-profile-1.png
+    - assets/page-2/images/leonard-ritter-1.png
+    - assets/page-2/images/mary-ruth-mcdonald-1-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
